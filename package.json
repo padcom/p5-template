@@ -1,0 +1,41 @@
+{
+  "name": "@padcom/p5-template",
+  "version": "0.0.1",
+  "description": "An empty template for TypeScript-powered P5 scripts that can be built as standalone application",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "p5",
+    "vite"
+  ],
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/padcom/p5-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/p5-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/padcom/p5-template/issues"
+  },
+  "devDependencies": {
+    "@padcom/eslint-config-typescript": "^0.5.0",
+    "@types/p5": "^1.6.2",
+    "eslint": "^8.43.0",
+    "p5": "^1.6.0",
+    "typescript": "5.0.4",
+    "vite": "^4.3.9",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@padcom/eslint-config-typescript"
+    ],
+    "ignorePatterns": [
+      "bootstrap.js"
+    ]
+  }
+}
